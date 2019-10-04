@@ -46,6 +46,7 @@ public class GameControls : MonoBehaviour
             rigid.gravityScale = 0.0f;
             rigid.velocity = Vector2.zero;
             rigid.angularVelocity = 0f;
+            spacePressed = false;
 
         }
         else if(coll.gameObject.name.Equals("2pt"))
@@ -56,6 +57,7 @@ public class GameControls : MonoBehaviour
             rigid.gravityScale = 0.0f;
             rigid.velocity = Vector2.zero;
             rigid.angularVelocity = 0f;
+            spacePressed = false;
         }
         else if(coll.gameObject.name.Equals("3pt"))
         {
@@ -65,6 +67,7 @@ public class GameControls : MonoBehaviour
             rigid.gravityScale = 0.0f;
             rigid.velocity = Vector2.zero;
             rigid.angularVelocity = 0f;
+            spacePressed = false;
         }
         else if(coll.gameObject.name.Equals("4pt"))
         {
@@ -74,7 +77,7 @@ public class GameControls : MonoBehaviour
             rigid.gravityScale = 0.0f;
             rigid.velocity = Vector2.zero;
             rigid.angularVelocity = 0f;
+            spacePressed = false;
         }
-        spacePressed = false;
     }
 }
